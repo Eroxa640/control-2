@@ -18,8 +18,8 @@
         </nav>
         <div class="flex">
           <div class="header__block">
-            <h1 class="block__title">Erbol Pushka</h1>
-            <p class="block__info">Myky,Diko,Aza,Nike ГОТТОР.Arsen САСЫК</p>
+            <h1 class="block__title">Picture Perfect</h1>
+            <p class="block__info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, velit! Pariatur quibusdam quo mollitia eum?</p>
           </div>
           <div class="iphone-img">
             <img src="./img/iPhone.png" alt="" class="iphone__img">
@@ -70,21 +70,6 @@
                 <img src="./img/block-2__icon.png" class="col__info__icon">
               </button>
               <div class="icon__love">
-                <img src="./img/block-2__loveicon.png" class="img__icon__love">
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-4">
-          <div class="col__info-4">
-            <h3 class="col__info__title">Sign up & see why</h3>
-            <p class="col__info__parag">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis voluptas expedita, voluptate eaque atque saepe.</p>
-            <div class="buttons">
-              <button class="col__info__btn">Find Out more
-                <img src="./img/block-2__icon.png" class="col__info__icon">
-              </button>
-              <div class="icon__love">
-                <img src="./img/block-2__loveicon.png" class="img__icon__love">
               </div>
             </div>
           </div>
@@ -98,7 +83,32 @@
             </button>
           </div>
         </div>
+        <div class="col-4">
+          <div class="col__info-4">
+            <h3 class="col__info__title">Sign up & see why</h3>
+            <p class="col__info__parag">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis voluptas expedita, voluptate eaque atque saepe.</p>
+            <div class="buttons">
+              <button class="col__info__btn">Find Out more
+                <img src="./img/block-2__icon.png" class="col__info__icon">
+              </button>
+                <div class="icon__love">
+                </div>
+            </div>
+          </div>
+        </div>
     </div>
+    <script>
+      // Look for .hamburger
+      var hamburger = document.querySelector(".hamburger");
+      var hamburger = document.querySelector(".icon__love");
+      // On click
+      hamburger.addEventListener("click", function() {
+        // Toggle class "is-active"
+        hamburger.classList.toggle("is-active");
+        icon__love.classList.toggle("is-active");
+        // Do something else, like open/close menu
+      });
+    </script>
     
 
 </body>

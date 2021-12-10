@@ -1,0 +1,27 @@
+.con-2__block-3 {
+  margin-top: 70px;
+}
+.block-3__cols {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin-top: 40px;
+}
+.block-3__tit {
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+  font-size: 35px;
+}
+.col-web__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-size: 13px;
+  color: #67676d;
+}
+.col-web__parag {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #67676d;
+  margin-top: 23px;
+}

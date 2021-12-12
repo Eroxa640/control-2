@@ -116,11 +116,6 @@ body {
   font-size: 14px;
 }
 
-.container-3 {
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
 .con-2__block-2 {
   display: grid;
   grid-template-columns: repeat(3, 2fr);
@@ -264,6 +259,44 @@ body {
   margin-top: 23px;
 }
 
+.container-3 {
+  background: url(../img/car-bg\ \(1\).jpg) center center/cover;
+  width: 100%;
+  height: 874px;
+}
+
+.car__info {
+  max-width: 495px;
+  padding-top: 450px;
+  margin-left: 150px;
+}
+
+.car-title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 60px;
+  font-weight: lighter;
+  color: white;
+}
+
+.car-parag {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  padding-top: 30px;
+  line-height: 24px;
+}
+
+.a {
+  padding-top: 25px;
+}
+
+.link {
+  max-width: 125px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 1000px) {
   .header {
     background: url(../img/bg-header1000px.jpg) center center/cover;
@@ -283,6 +316,14 @@ body {
     font-size: 13px;
   }
 
+  .car-title {
+    font-size: 60px;
+  }
+
+  .block__info {
+    font-size: 13px;
+  }
+
   .header__block {
     padding-top: 10rem;
   }
@@ -292,7 +333,24 @@ body {
     height: 600px;
   }
 
+  .container-3 {
+    height: 600px;
+  }
+
+  .car__info {
+    padding-top: 200px;
+    margin-left: 120px;
+  }
+
   .block__title {
+    font-size: 50px;
+  }
+
+  .block__info {
+    font-size: 12px;
+  }
+
+  .car-title {
     font-size: 50px;
   }
 
@@ -321,11 +379,28 @@ body {
     height: 500px;
   }
 
+  .container-3 {
+    height: 500px;
+  }
+
+  .car__info {
+    padding-top: 150px;
+    margin-left: 100px;
+  }
+
   .block__title {
     font-size: 45px;
   }
 
+  .car-title {
+    font-size: 45px;
+  }
+
   .block__info {
+    font-size: 11px;
+  }
+
+  .car-parag {
     font-size: 11px;
   }
 
@@ -350,6 +425,15 @@ body {
     padding-top: 8rem;
   }
 
+  .container-3 {
+    height: 450px;
+  }
+
+  .car__info {
+    padding-top: 130px;
+    margin-left: 30px;
+  }
+
   .header {
     height: 450px;
   }
@@ -362,12 +446,16 @@ body {
     font-size: 10px;
   }
 
-  .block-1__title {
-    font-size: 25px;
+  .car-title {
+    font-size: 37px;
   }
 
-  .block-1__info__text-1 {
-    font-size: 11px;
+  .car__info {
+    font-size: 10px;
+  }
+
+  .block-1__title {
+    font-size: 25px;
   }
 
   .block-1__info__2 {
@@ -387,6 +475,16 @@ body {
     height: 350px;
   }
 
+  .container-3 {
+    height: 400px;
+  }
+
+  .car__info {
+    padding-top: 70px;
+    margin-left: 30px;
+    margin-right: 20px;
+  }
+
   .block__title {
     font-size: 30px;
   }
@@ -399,16 +497,32 @@ body {
     font-size: 20px;
   }
 
-  .block-1__info__text-1 {
-    font-size: 10px;
-  }
-
   .block-1__info__2 {
     padding-top: 25px;
   }
 
   .container-2 {
     margin-top: 40px;
+  }
+
+  .block-1__info {
+    display: block;
+  }
+
+  .block-1__info__2 {
+    padding: 0;
+  }
+
+  .con-2__block-2 {
+    margin-top: 30px;
+  }
+
+  .car-parag {
+    padding-top: 20px;
+  }
+
+  .col__info__btn {
+    padding-top: 15px;
   }
 }
 @media screen and (max-width: 400px) {
@@ -431,6 +545,12 @@ body {
     height: 325px;
   }
 
+  .car__info {
+    padding-top: 50px;
+    margin-left: 30px;
+    margin-right: 20px;
+  }
+
   .block__info {
     margin-top: 0;
   }
@@ -445,10 +565,6 @@ body {
 
   .block-1__title {
     font-size: 20px;
-  }
-
-  .block-1__info__text-1 {
-    font-size: 10px;
   }
 
   .block-1__info__2 {
@@ -468,10 +584,6 @@ body {
     font-size: 20px;
   }
 
-  .block-1__info__text-1 {
-    font-size: 10px;
-  }
-
   .block-1__info__2 {
     padding-top: 0;
   }
@@ -482,6 +594,11 @@ body {
 
   .block-3__tit {
     font-size: 25px;
+  }
+
+  .car__info {
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
 @media screen and (max-width: 1050px) {

@@ -15,6 +15,12 @@
   .block__info {
     font-size: 13px;
   }
+  .car-title {
+    font-size: 60px;
+  }
+  .block__info {
+    font-size: 13px;
+  }
   .header__block {
     padding-top: 10rem;
   }
@@ -23,7 +29,20 @@
   .header {
     height: 600px;
   }
+  .container-3 {
+    height: 600px;
+  }
+  .car__info {
+    padding-top: 200px;
+    margin-left: 120px;
+  }
   .block__title {
+    font-size: 50px;
+  }
+  .block__info {
+    font-size: 12px;
+  }
+  .car-title {
     font-size: 50px;
   }
   .block__info {
@@ -46,10 +65,23 @@
   .header {
     height: 500px;
   }
+  .container-3 {
+    height: 500px;
+  }
+  .car__info {
+    padding-top: 150px;
+    margin-left: 100px;
+  }
   .block__title {
     font-size: 45px;
   }
+  .car-title {
+    font-size: 45px;
+  }
   .block__info {
+    font-size: 11px;
+  }
+  .car-parag {
     font-size: 11px;
   }
   .block-1__title {
@@ -69,6 +101,13 @@
   .header__block {
     padding-top: 8rem;
   }
+  .container-3 {
+    height: 450px;
+  }
+  .car__info {
+    padding-top: 130px;
+    margin-left: 30px;
+  }
   .header {
     height: 450px;
   }
@@ -78,11 +117,14 @@
   .block__info {
     font-size: 10px;
   }
+  .car-title {
+    font-size: 37px;
+  }
+  .car__info {
+    font-size: 10px;
+  }
   .block-1__title {
     font-size: 25px;
-  }
-  .block-1__info__text-1 {
-    font-size: 11px;
   }
   .block-1__info__2 {
     padding-top: 30px;
@@ -98,6 +140,14 @@
   .header {
     height: 350px;
   }
+  .container-3 {
+    height: 400px;
+  }
+  .car__info {
+    padding-top: 70px;
+    margin-left: 30px;
+    margin-right: 20px;
+  }
   .block__title {
     font-size: 30px;
   }
@@ -107,14 +157,26 @@
   .block-1__title {
     font-size: 20px;
   }
-  .block-1__info__text-1 {
-    font-size: 10px;
-  }
   .block-1__info__2 {
     padding-top: 25px;
   }
   .container-2 {
     margin-top: 40px;
+  }
+  .block-1__info {
+    display: block;
+  }
+  .block-1__info__2 {
+    padding: 0;
+  }
+  .con-2__block-2 {
+    margin-top: 30px;
+  }
+  .car-parag {
+    padding-top: 20px;
+  }
+  .col__info__btn {
+    padding-top: 15px;
   }
 }
 @media screen and (max-width:400px) {
@@ -133,6 +195,11 @@
   .header {
     height: 325px;
   }
+  .car__info {
+    padding-top: 50px;
+    margin-left: 30px;
+    margin-right: 20px;
+  }
   .block__info {
     margin-top: 0;
   }
@@ -144,9 +211,6 @@
   }
   .block-1__title {
     font-size: 20px;
-  }
-  .block-1__info__text-1 {
-    font-size: 10px;
   }
   .block-1__info__2 {
     padding-top: 0;
@@ -162,9 +226,6 @@
   .block-1__title {
     font-size: 20px;
   }
-  .block-1__info__text-1 {
-    font-size: 10px;
-  }
   .block-1__info__2 {
     padding-top: 0;
   }
@@ -173,6 +234,10 @@
   }
   .block-3__tit {
     font-size: 25px;
+  }
+  .car__info {
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
 @media screen and (max-width:1050px) {

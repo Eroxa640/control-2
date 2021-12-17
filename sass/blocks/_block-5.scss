@@ -1,0 +1,67 @@
+.blocks-5 {
+  display: flex;
+  justify-content: space-between;
+}
+.blocks-5__block-1 {
+  margin-top: 80px;
+}
+.block-5__block-1__info {
+  max-width: 500px;
+  padding: 45px;
+  border-radius: 5px;
+}
+.block-1__rating {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-size: 11px;
+  color: white;
+  background-color: rgba(38, 35, 35, 0.412);
+  border: none;
+  padding: 8px 18px;
+  border-radius: 5px;
+}
+.block-5__block-1__tit {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #2e3b4e;
+  padding-top: 14px;
+}
+.block-5__block-1__parag {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #8297a7;
+  padding-top: 15px;
+}
+.block-5__block-1__buy {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  color:  white;
+  background-color: #81c99b;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 3px;
+  margin-top: 20px
+}
+.block-5__block-1__images {
+  margin-top: 15px;
+}
+.block-5__block-1__image-2 {
+  margin-left: 10px;
+}
+.color-fio {
+  background-color: #bd8cbf;
+}
+.bg-color {
+  background-color: #f6f7fa;
+}
+.bg-grey {
+  background-color: #ffffff;
+}
+.margin {
+  max-width: 1050px;
+  margin: 0 auto;
+  margin-top: 0;
+}

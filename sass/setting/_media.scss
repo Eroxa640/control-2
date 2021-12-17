@@ -252,6 +252,17 @@
     display: grid;
     grid-template-columns: repeat(2, 2fr);
   }
+  .footer-info {
+    display: block;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .footer-input {
+    padding-top: 50px;
+  }
+  .footer-info-cols {
+    margin-right: 0;
+  }
 }
 @media screen and (max-width:710px) {
   .con-2__block-2 {
@@ -310,5 +321,23 @@
   .col-web {
     padding-left: 30px;
     padding-right: 30px;
+  }
+}
+@media screen and (max-width:1060px) {
+  .blocks-5 {
+    flex-direction: column;
+  }
+  .blocks-5__block-1 {
+    margin-top: 20px;
+  }
+  .block-5__block-1__info {
+    margin: 0 auto;
+    padding: 20px;
+  }
+}
+@media screen and (max-width:560px) {
+  .footer-info {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }

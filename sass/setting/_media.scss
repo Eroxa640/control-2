@@ -85,7 +85,8 @@
     font-size: 11px;
   }
   .car-parag {
-    font-size: 11px;
+    font-size: 12px;
+    line-height: 18px;
   }
   .block-1__title {
     font-size: 28px;
@@ -343,5 +344,10 @@
   .footer-info {
     padding-left: 10px;
     padding-right: 10px;
+  }
+}
+@media screen and (max-width:610px) {
+  .footer-info {
+    padding-top: 60px;
   }
 }

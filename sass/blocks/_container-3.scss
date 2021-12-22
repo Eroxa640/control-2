@@ -5,9 +5,12 @@
   margin-top: 70px;
 }
 .car__info {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding-top: 400px;
+}
+.car {
   max-width: 495px;
-  padding-top: 450px;
-  margin-left: 150px;
 }
 .car-title {
   font-family: "Open Sans", sans-serif;

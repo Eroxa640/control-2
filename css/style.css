@@ -227,6 +227,26 @@ body {
   }
 }
 
+.icon__love {
+  width: 70px;
+  height: 50px;
+  background: url(../img/heart.png);
+  background-size: 2800% 140%;
+}
+
+.icon__love.is-active {
+  animation: like 1s steps(28) forwards;
+  z-index: 100;
+}
+@keyframes like {
+  from {
+    background-position-x: left;
+  }
+  to {
+    background-position-x: right;
+  }
+}
+
 .con-2__block-3 {
   margin-top: 70px;
 }
@@ -267,9 +287,13 @@ body {
 }
 
 .car__info {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding-top: 400px;
+}
+
+.car {
   max-width: 495px;
-  padding-top: 450px;
-  margin-left: 150px;
 }
 
 .car-title {
@@ -617,7 +641,8 @@ body {
   }
 
   .car-parag {
-    font-size: 11px;
+    font-size: 12px;
+    line-height: 18px;
   }
 
   .block-1__title {
@@ -934,6 +959,11 @@ body {
   .footer-info {
     padding-left: 10px;
     padding-right: 10px;
+  }
+}
+@media screen and (max-width: 610px) {
+  .footer-info {
+    padding-top: 60px;
   }
 }
 

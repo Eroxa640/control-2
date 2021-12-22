@@ -91,4 +91,22 @@
     }
   }
 }
+.icon__love {
+  width: 70px;
+  height: 50px;
+  background: url(../img/heart.png);
+  background-size: 2800% 140%;
+}
+.icon__love.is-active {
+  animation: like 1s steps(28) forwards;
+  z-index: 100;
+  @keyframes like {
+    from {
+      background-position-x: left;
+    }
+    to {
+      background-position-x: right;
+    }
+  }
+}
 
